@@ -1,0 +1,96 @@
+    @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gold;
+    width: 100vw;
+}
+
+.openingtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+    color: white;
+}
+
+.navigation {
+    margin: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    color: whitesmoke;
+    margin: 0 1rem;
+    transition: .3s;
+}
+
+li:hover {
+    color: gold;
+}
+
+#start {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+}
+
+.start>h3 {
+    color: gold;
+}
+
+h3:hover {
+    transition: .1s;
+    color: rgb(253, 176, 8);
+}
+
+button {
+    border: none;
+    background-color: gold;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.navmenu {
+    display: none;
+}
+
+.Menu {
+    margin: .2rem;
+}
+
+.hamburger {
+    margin: .2rem;
+}
+
+.navmenu:hover {
+    background-color: rgb(255, 176, 7);
+    color: rgb(34, 34, 34);
+    transition: .1s;
+}
+
+.tellme:hover {
+    background-color: rgb(255, 176, 7);
+    color: rgb(34, 34, 34);
+    transition: .1s;
+}
+
+.openingtext {
+    padding: 200px;
